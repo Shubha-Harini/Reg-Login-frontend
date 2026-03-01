@@ -60,6 +60,9 @@ const Signup = () => {
             value={formData.username}
             onChange={handleChange}
             placeholder="johndoe"
+            autoCapitalize="none"
+            autoCorrect="off"
+            spellCheck="false"
           />
         </div>
 
@@ -72,6 +75,9 @@ const Signup = () => {
             value={formData.email}
             onChange={handleChange}
             placeholder="john@example.com"
+            autoCapitalize="none"
+            autoCorrect="off"
+            spellCheck="false"
           />
         </div>
 
@@ -97,6 +103,9 @@ const Signup = () => {
               value={formData.password}
               onChange={handleChange}
               placeholder="••••••••"
+              autoCapitalize="none"
+              autoCorrect="off"
+              spellCheck="false"
             />
             <button
               type="button"
