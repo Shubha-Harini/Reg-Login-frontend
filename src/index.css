@@ -220,3 +220,28 @@ body {
 .password-toggle-btn:hover {
   color: var(--text-main);
 }
+
+/* Responsive Mobile Styles */
+@media screen and (max-width: 480px) {
+  .dashboard-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .dashboard-card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .dashboard-card p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .auth-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .dashboard-container {
+    padding: 1rem;
+  }
+}
